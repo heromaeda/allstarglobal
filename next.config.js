@@ -3,5 +3,5 @@ module.exports = {
   images: {
     unoptimized: true
   },
-  basePath: '/your-repo-name'
+  basePath: '/allstarglobal'
 }
