@@ -24,11 +24,11 @@ export default function Home() {
         {/* Mission Statement */}
         <section className="space-y-8">
           <h1 className="text-4xl font-semibold leading-tight text-gray-900 mb-6">
-            Accelerating Japan's AI & SaaS Revolution
+            Accelerating Japan&apos;s AI & SaaS Revolution
           </h1>
           <div className="space-y-6 text-lg leading-relaxed">
             <p>
-              ALL STAR SAAS FUND is a venture capital firm that partners with early-stage startups to accelerate Japan's digital transformation. We identify and invest in visionary founders who are building innovative SaaS and AI solutions that address critical business challenges.
+              ALL STAR SAAS FUND is a venture capital firm that partners with early-stage startups to accelerate Japan&apos;s digital transformation. We identify and invest in visionary founders who are building innovative SaaS and AI solutions that address critical business challenges.
             </p>
             <p>
               We are committed to building lasting, enduring companies that create meaningful impact.
@@ -40,7 +40,7 @@ export default function Home() {
         <section>
           <h2 className="text-2xl font-semibold mb-8">People</h2>
           <p className="text-lg mb-8">
-            Our team brings together experienced investors, technologists, and operators who understand the unique challenges and opportunities in Japan's ecosystem. We work closely with founders to help them realize their vision.
+            Our team brings together experienced investors, technologists, and operators who understand the unique challenges and opportunities in Japan&apos;s ecosystem. We work closely with founders to help them realize their vision.
           </p>
           <ul className="space-y-4">
             <li>
