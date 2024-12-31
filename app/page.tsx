@@ -1,101 +1,141 @@
-import Image from "next/image";
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="min-h-screen bg-white px-6 md:px-12 lg:px-24 py-12 md:py-20">
+      {/* Header/Logo */}
+      <header className="mb-24">
+        <Link href="/" className="inline-block">
+          <Image
+            src="/allstar_logo.png"
+            alt="ALL STAR"
+            width={160}
+            height={40}
+            className="h-8 w-auto"
+            priority
+            quality={100}
+          />
+        </Link>
+      </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+      {/* Main Content */}
+      <main className="max-w-3xl space-y-24">
+        {/* Mission Statement */}
+        <section className="space-y-8">
+          <h1 className="text-4xl font-semibold leading-tight text-gray-900 mb-6">
+            Accelerating Japan's AI & SaaS Revolution
+          </h1>
+          <div className="space-y-6 text-lg leading-relaxed">
+            <p>
+              ALL STAR SAAS FUND is a venture capital firm that partners with early-stage startups to accelerate Japan's digital transformation. We identify and invest in visionary founders who are building innovative SaaS and AI solutions that address critical business challenges.
+            </p>
+            <p>
+              We are committed to building lasting, enduring companies that create meaningful impact.
+            </p>
+          </div>
+        </section>
+
+        {/* Team Section */}
+        <section>
+          <h2 className="text-2xl font-semibold mb-8">People</h2>
+          <p className="text-lg mb-8">
+            Our team brings together experienced investors, technologists, and operators who understand the unique challenges and opportunities in Japan's ecosystem. We work closely with founders to help them realize their vision.
+          </p>
+          <ul className="space-y-4">
+            <li>
+              <Link href="https://www.linkedin.com/in/hironorimaeda/" className="font-bold hover:underline">Hiro Maeda</Link>
+              <span className="text-gray-600"> (Managing Partner)</span>
+            </li>
+            <li>
+              <Link href="#" className="font-bold hover:underline">Chihiro Kobayashi</Link>
+              <span className="text-gray-600"> (Director of Brand & Marketing)</span>
+            </li>
+            <li>
+              <Link href="#" className="font-bold hover:underline">Masa Minato</Link>
+              <span className="text-gray-600"> (Senior Investment Partner)</span>
+            </li>
+         
+          </ul>
+        </section>
+
+        {/* Portfolio Section */}
+        <section>
+          <h2 className="text-2xl font-semibold mb-8">Portfolio</h2>
+          <p className="text-lg mb-8">
+            We invest in startups addressing critical operational challenges faced by Japanese businesses. Our portfolio encompasses core business operations including human resources, expense management, accounting, and customer relationship management. Our portfolio companies deliver solutions across diverse industries, including construction, pharmaceuticals, manufacturing, and logistics.
+          </p>
+          <ul className="space-y-4">
+            <li>
+              <Link href="https://smarthr.co.jp/" className="font-bold hover:underline">SmartHR</Link>
+              <span className="text-gray-600">, HR Software</span>
+            </li>
+            <li>
+              <Link href="https://www.loglass.jp/" className="font-bold hover:underline">Loglass</Link>
+              <span className="text-gray-600">, Financial Planning & Accounting</span>
+            </li>
+            <li>
+              <Link href="https://www.hacomono.jp/" className="font-bold hover:underline">hacomono</Link>
+              <span className="text-gray-600">, Fitness & Beauty Industry</span>
+            </li>
+            <li>
+              <Link href="https://kaminashi.jp/" className="font-bold hover:underline">Kaminashi</Link>
+              <span className="text-gray-600">, Software for Manufacturing Industry </span>
+            </li>
+            <li>
+              <Link href="https://www.fastaccounting.jp/en/" className="font-bold hover:underline">Fast Accounting</Link>
+              <span className="text-gray-600">, Automation for Accounting</span>
+            </li>
+            <li>
+              <Link href="https://www.hrbrain.jp/" className="font-bold hover:underline">HR Brain</Link>
+              <span className="text-gray-600">, Talent Management Software</span>
+            </li>
+            <li>
+              <Link href="https://layerx.co.jp/" className="font-bold hover:underline">LayerX</Link>
+              <span className="text-gray-600">, AI Expense Management Software</span>
+            </li>
+            <li>
+              <Link href="https://andpad.jp/" className="font-bold hover:underline">ANDPAD</Link>
+              <span className="text-gray-600">, Software for the Construction Industry</span>
+            </li>
+            <li>
+              <Link href="https://www.super-studio.jp/" className="font-bold hover:underline">Super Studio</Link>
+              <span className="text-gray-600">, Software for E-Commerce Industry</span>
+            </li>
+            <li>
+              <Link href="https://karakuri.ai/" className="font-bold hover:underline">Karakuri</Link>
+              <span className="text-gray-600">, Automation of Customer Support</span>
+            </li>
+            <li>
+              <Link href="https://www.mntsq.co.jp/" className="font-bold hover:underline">MNTSQ</Link>
+              <span className="text-gray-600">, Contract Management Software for the Legal Industry</span>
+            </li>
+            <li>
+              <Link href="https://ivry.jp/" className="font-bold hover:underline">IVRy</Link>
+              <span className="text-gray-600">, Voice AI Software</span>
+            </li>
+          </ul>
+        </section>
+
+        {/* Contact Section */}
+        <section className="pt-12 border-t border-gray-200">
+          <Link 
+            href="mailto:allstar-global@allstarsaas.com" 
+            className="font-bold hover:underline"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+            Contact Us
+          </Link>
+          <p className="mt-4">
+            <span className="text-gray-600">© 2025 ALL STAR SAAS FUND</span>
+          </p>
+          <p className="mt-2">
+            <Link href="/privacy-policy" className="text-gray-600 hover:underline">
+              Privacy Policy
+            </Link>
+          </p>
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
-  );
+  )
 }
+
