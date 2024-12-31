@@ -8,7 +8,7 @@ export default function Home() {
       <header className="mb-24">
         <Link href="/" className="inline-block">
           <Image
-            src="/allstar_logo.png"
+            src="./allstar_logo.png"
             alt="ALL STAR"
             width={160}
             height={40}
