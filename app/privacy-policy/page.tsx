@@ -83,7 +83,7 @@ export default function PrivacyPolicy() {
             <li>complying with or as required by any applicable law, governmental or regulatory requirements of any relevant jurisdiction, including meeting the requirements to make disclosure under the requirements of any law binding on us and/or for the purposes of any guidelines issued by regulatory or other authorities with which we are expected to comply; and</li>
             <li>complying with or as required by any request or direction of any governmental authority, or responding to requests for information from public agencies, ministries, statutory boards, or other similar authorities. For the avoidance of doubt, this means that we may/will disclose your personal data to the aforementioned parties upon their request or direction.</li>
           </ul>
-          <p>BEENEXT follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this, and it is a part of hosting services' analytics. The information collected by log files include internet protocol ("IP”) addresses, browser type, Internet Service Provider (“ISP”), date and time stamps, referring/exit pages and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analysing trends, administering the site, tracking users&apos; movement on the website and gathering demographic information.</p>
+          <p>BEENEXT follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this, and it is a part of hosting services&apos; analytics. The information collected by log files include internet protocol (&quot;IP&quot;) addresses, browser type, Internet Service Provider (“ISP”), date and time stamps, referring/exit pages and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analysing trends, administering the site, tracking users&apos; movement on the website and gathering demographic information.</p>
         </div>
 
 
@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
   <h2 className="text-2xl font-semibold mb-4">Sharing Your Personal Data</h2>
   <div className="space-y-6 text-base leading-relaxed">
     <p>
-      We do not share your personal data with any third party other than for storage purposes on servers which may be located outside the European Union ("EU"). We may also share your personal data with competent authorities if required under applicable law.
+      We do not share your personal data with any third party other than for storage purposes on servers which may be located outside the European Union (&quot;EU&quot;). We may also share your personal data with competent authorities if required under applicable law.
     </p>
     <p>
       In this case, BEENEXT will ensure that any transfers of personal data are in accordance with applicable laws and will put in place contractual or other appropriate protections to ensure that the relevant third parties provide an adequate level of protection to your personal data as set out in this Privacy Policy and as required by applicable local law.
