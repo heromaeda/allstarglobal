@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
         </h1>
         <div className="space-y-6 text-base leading-relaxed">
           <p>
-            Reference to "personal data" means any information relating to a person, whether true or not, by which such person may be identified from that data or other information to which BEENEXT CAPITAL MANAGEMENT Pte. Ltd. ("BEENEXT") has or is likely to have access to. Common examples include names, identification numbers, contact information, financial records, credit card information, and location data.
+            Reference to &quot;personal data&quot; means any information relating to a person, whether true or not, by which such person may be identified from that data or other information to which BEENEXT CAPITAL MANAGEMENT Pte. Ltd. (&quot;BEENEXT&quot;) has or is likely to have access to. Common examples include names, identification numbers, contact information, financial records, credit card information, and location data.
           </p>
           <p>
             BEENEXT is committed to protecting the privacy of our visitors. This Privacy Policy is designed to assist you in understanding the types of information that is collected and recorded by BEENEXT. Please read this Privacy Policy carefully as it also sets out the purposes for which BEENEXT collects, uses, discloses, shares, transfers and/or processes your personal data.
@@ -83,7 +83,7 @@ export default function PrivacyPolicy() {
             <li>complying with or as required by any applicable law, governmental or regulatory requirements of any relevant jurisdiction, including meeting the requirements to make disclosure under the requirements of any law binding on us and/or for the purposes of any guidelines issued by regulatory or other authorities with which we are expected to comply; and</li>
             <li>complying with or as required by any request or direction of any governmental authority, or responding to requests for information from public agencies, ministries, statutory boards, or other similar authorities. For the avoidance of doubt, this means that we may/will disclose your personal data to the aforementioned parties upon their request or direction.</li>
           </ul>
-          <p>BEENEXT follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this, and it is a part of hosting services' analytics. The information collected by log files include internet protocol ("IP”) addresses, browser type, Internet Service Provider (“ISP”), date and time stamps, referring/exit pages and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analysing trends, administering the site, tracking users' movement on the website and gathering demographic information.</p>
+          <p>BEENEXT follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this, and it is a part of hosting services' analytics. The information collected by log files include internet protocol ("IP”) addresses, browser type, Internet Service Provider (“ISP”), date and time stamps, referring/exit pages and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analysing trends, administering the site, tracking users&apos; movement on the website and gathering demographic information.</p>
         </div>
 
 
@@ -108,10 +108,10 @@ export default function PrivacyPolicy() {
   <h2 className="text-2xl font-semibold mb-4">Cookies and Web Beacons</h2>
   <div className="space-y-6 text-base leading-relaxed">
     <p>
-      Like any other website, BEENEXT uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+      Like any other website, BEENEXT uses &apos;cookies&apos;. These cookies are used to store information including visitors&apos; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&apos; experience by customizing our web page content based on visitors&apos; browser type and/or other information.
     </p>
     <p>
-      You can choose to disable cookies through your web browser options. We encourage you to consult your web browser's website to find out more information about cookie management with your web browser.
+      You can choose to disable cookies through your web browser options. We encourage you to consult your web browser&apos;s website to find out more information about cookie management with your web browser.
     </p>
   </div>
 
@@ -121,14 +121,14 @@ export default function PrivacyPolicy() {
       This website may contain links to third party websites. These links are provided solely for your convenience.
     </p>
     <p>
-      BEENEXT's Privacy Policy does not apply to other advertisers or websites. Access to any other website through any links provided on this website is at your own risk and BEENEXT is not responsible for the content of any such website or the accuracy or reliability of any information, data, or other contents thereof. Thus, we encourage you to consult the respective Privacy Policies of these third party advertisement servers or websites for more information on personal data is collected, used, disclosed and/or processed on these third party platforms.
+      BEENEXT&apos;s Privacy Policy does not apply to other advertisers or websites. Access to any other website through any links provided on this website is at your own risk and BEENEXT is not responsible for the content of any such website or the accuracy or reliability of any information, data, or other contents thereof. Thus, we encourage you to consult the respective Privacy Policies of these third party advertisement servers or websites for more information on personal data is collected, used, disclosed and/or processed on these third party platforms.
     </p>
   </div>
 
   <h2 className="text-2xl font-semibold mb-4">Information for Singapore Residents</h2>
   <div className="space-y-6 text-base leading-relaxed">
     <p>
-      For Singapore Residents, we may also collect your personal data outside of the purposes listed in this Privacy Policy if we have assessed that to do so would be in our legitimate interests and beneficial to the public. Such legitimate interests would include ensuring security, managing disputes, and/or preventing the misuse of BEENEXT's services. Before doing so, we will take steps to ensure that any adverse effects that might arise for you have already been identified and eliminated, reduced, or mitigated.
+      For Singapore Residents, we may also collect your personal data outside of the purposes listed in this Privacy Policy if we have assessed that to do so would be in our legitimate interests and beneficial to the public. Such legitimate interests would include ensuring security, managing disputes, and/or preventing the misuse of BEENEXT&apos;s services. Before doing so, we will take steps to ensure that any adverse effects that might arise for you have already been identified and eliminated, reduced, or mitigated.
     </p>
   </div>
 
