@@ -3,5 +3,5 @@ module.exports = {
   images: {
     unoptimized: true
   },
-  basePath: '/allstarglobal' //comment out when running locally
+  // basePath: '/allstarglobal' //comment out when running locally
 }

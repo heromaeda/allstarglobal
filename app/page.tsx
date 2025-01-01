@@ -55,8 +55,39 @@ export default function Home() {
               <Link href="#" className="font-bold hover:underline">Masa Minato</Link>
               <span className="text-gray-600"> (Senior Investment Partner)</span>
             </li>
-         
-          </ul>
+            <li>
+              <Link href="#" className="font-bold hover:underline">Mika Sekine</Link>
+              <span className="text-gray-600"> (Portfolio & Audit Manager)</span>
+           </li>
+            <li>
+              <Link href="#" className="font-bold hover:underline">Tsukasa Kusuda</Link>
+              <span className="text-gray-600"> (Senior Talent Partner)</span>
+           </li>
+            <li>
+              <Link href="#" className="font-bold hover:underline">Tatsuya Kozaki</Link>
+              <span className="text-gray-600"> (Investment Partner)</span>
+           </li>
+            <li>
+              <Link href="#" className="font-bold hover:underline">Yoshi Miyazaki</Link>
+              <span className="text-gray-600"> (Talent Partner)</span>
+           </li>
+            <li>
+              <Link href="#" className="font-bold hover:underline">Sae Kuwashima</Link>
+              <span className="text-gray-600"> (Senior Associate, Brand & Marketing)</span>
+           </li>  
+            <li>
+              <Link href="#" className="font-bold hover:underline">Alice Hamakawa</Link>
+              <span className="text-gray-600"> (Operations, Associate)</span>
+           </li>
+            <li>
+              <Link href="#" className="font-bold hover:underline">Kent Hasegawa</Link>
+              <span className="text-gray-600"> (Senior Editor)</span>
+           </li>
+            <li>
+              <Link href="#" className="font-bold hover:underline">Keiko Mito</Link>
+              <span className="text-gray-600"> (Talent Team)</span>
+           </li>
+	 </ul>
         </section>
 
         {/* Portfolio Section */}
