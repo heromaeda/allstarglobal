@@ -76,15 +76,15 @@ export default function Home() {
             </li>
             <li>
               <Link href="https://www.hacomono.jp/" className="font-bold hover:underline">hacomono</Link>
-              <span className="text-gray-600">, Fitness & Beauty Industry</span>
+              <span className="text-gray-600">, Software for the Fitness & Beauty Industry</span>
             </li>
             <li>
               <Link href="https://kaminashi.jp/" className="font-bold hover:underline">Kaminashi</Link>
-              <span className="text-gray-600">, Software for Manufacturing Industry </span>
+              <span className="text-gray-600">, Software for the Manufacturing Industry </span>
             </li>
             <li>
               <Link href="https://www.fastaccounting.jp/en/" className="font-bold hover:underline">Fast Accounting</Link>
-              <span className="text-gray-600">, Automation for Accounting</span>
+              <span className="text-gray-600">, Accounting Automation</span>
             </li>
             <li>
               <Link href="https://www.hrbrain.jp/" className="font-bold hover:underline">HR Brain</Link>
@@ -100,7 +100,7 @@ export default function Home() {
             </li>
             <li>
               <Link href="https://www.super-studio.jp/" className="font-bold hover:underline">Super Studio</Link>
-              <span className="text-gray-600">, Software for E-Commerce Industry</span>
+              <span className="text-gray-600">, Software for the E-Commerce Industry</span>
             </li>
             <li>
               <Link href="https://karakuri.ai/" className="font-bold hover:underline">Karakuri</Link>
