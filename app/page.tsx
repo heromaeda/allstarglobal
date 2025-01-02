@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white px-6 md:px-12 lg:px-24 py-12 md:py-20">
       {/* Header/Logo */}
-      <header className="mb-24">
+      <header className="mb-12">
         <Link href="/" className="inline-block">
           <Image
             src="./allstar_logo.png"
