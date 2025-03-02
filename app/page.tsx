@@ -49,7 +49,7 @@ export default function Home() {
             </li>
             <li>
               <Link href="#" className="font-bold hover:underline">Chihiro Kobayashi</Link>
-              <span className="text-gray-600"> (Director of Brand & Marketing)</span>
+              <span className="text-gray-600"> (Executive Partner, Brand & Marketing)</span>
             </li>
             <li>
               <Link href="#" className="font-bold hover:underline">Masa Minato</Link>
@@ -57,7 +57,7 @@ export default function Home() {
             </li>
             <li>
               <Link href="#" className="font-bold hover:underline">Mika Sekine</Link>
-              <span className="text-gray-600"> (Portfolio & Audit Manager)</span>
+              <span className="text-gray-600"> (Partner, Portfolio & Audit)</span>
            </li>
             <li>
               <Link href="#" className="font-bold hover:underline">Tsukasa Kusuda</Link>
